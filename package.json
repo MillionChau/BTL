@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "cypress": "^13.17.0",
     "morgan": "^1.10.0"
   },
   "dependencies": {

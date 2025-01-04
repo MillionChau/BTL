@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo App</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1>Todo App</h1>
+  
+  <!-- Form để thêm todo -->
+  <div id="addTodoForm">
+    <input type="text" id="todoName" placeholder="Enter todo name" required>
+    <input type="text" id="todoDescription" placeholder="Enter description">
+    <button id="addTodoButton">Add Todo</button>
+  </div>
+
+  <!-- Danh sách các todo -->
+  <div id="todosContainer"></div>
+
+  <!-- Form để chỉnh sửa todo -->
+  <div id="editTodoForm" style="display:none;">
+    <input type="text" id="editTodoName" placeholder="Enter todo name">
+    <input type="text" id="editTodoDescription" placeholder="Enter description">
+    <button id="updateTodoButton">Update Todo</button>
+    <button id="cancelEditButton">Cancel</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

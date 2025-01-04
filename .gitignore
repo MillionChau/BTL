@@ -94,3 +94,8 @@ temp/
 
 # Build artifacts
 dist/
+
+e2e/
+fixtures/
+screenshots/
+support/
