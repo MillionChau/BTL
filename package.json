@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "morgan": "^1.10.0"
+  },
+  "dependencies": {
+    "sass": "^1.81.0"
+  }
+}
